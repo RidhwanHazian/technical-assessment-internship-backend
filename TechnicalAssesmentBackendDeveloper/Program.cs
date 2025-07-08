@@ -28,6 +28,12 @@ public class ItemManager
 {
     private List<string> items;
 
+    //Added constructor to initialize the items list
+    public ItemManager()
+    {
+        items = new List<string>();
+    }
+
     public void AddItem(string item)
     {
         items.Add(item);
@@ -50,7 +56,7 @@ public class ItemManager
 
     public void ClearAllItems()
     {
-        items = [];
+        items = new List<string>();
     }
 }
 
@@ -58,6 +64,12 @@ public class ItemManager<T>
 {
     private List<T> items;
 
+    // Added constructor to initialize the items list
+    // This allows ItemManager to be used with any type T
+    public ItemManager()
+    {
+        items = new List<T>();
+    }
     public void AddItem(T item)
     {
         items.Add(item);
@@ -73,6 +85,6 @@ public class ItemManager<T>
 
     public void ClearAllItems()
     {
-        items = [];
+        items = new List<T>();
     }
 }
