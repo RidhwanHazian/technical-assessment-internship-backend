@@ -1,18 +1,19 @@
-# TechnicalAssessmentBackendDeveloper
+# Technical Assessment – Backend Developer
 
-This is a broken .NET console application for assessment purposes.
+This repository contains the completed solution for a .NET console application used in a technical assessment for a backend developer internship.
 
 ## Description
 
-The program is a simple "Item Manager" console app that lets users add, remove, and print a list of items.
+The program is a simple console-based "Item Manager" that allows users to add, remove, and display a list of items. The assessment focuses on debugging, working with generics, interfaces, and improving code structure.
 
-## Your Tasks
+## Completed Tasks
 
-1. Part One: Fix the build/runtime errors.
-1. Part Two: Implement the missing method `RemoveItem`.
-1. Part Three: Introduce a Fruit class and use the `ItemManager<Fruit>` to add a three fruits and print them on the console.
-1. Part Four: Implement an interface IItemManager and make ItemManager implements the interface.
-1. Part Five: Improve the code quality by refactoring the code in the `BadProgram.cs`
+1. **Part One:** Fixed build and runtime errors caused by uninitialized variables and incorrect method calls.
+2. **Part Two:** Implemented the missing `RemoveItem` method with proper validation.
+3. **Part Three:** Introduced a `Fruit` class and used the generic `ItemManager<Fruit>` to add and print fruit objects.
+4. **Part Four:** Created and implemented an interface `IItemManager` for better code structure and extensibility.
+5. **Part Five:** Refactored `BadProgram.cs` for cleaner, more maintainable code. This included applying async/await for non-blocking operations and improving property handling and method structure.
 
 ## Git Commit Instructions
-Please use **separate commits** for each part. Since there are four parts in the assesment, please make sure to have at least four commits. More commits that shows the progress of the work are welcome.
+
+The work has been committed in separate stages to reflect the progress for each task. Each part of the assessment is included in its own commit for clarity and traceability. Additional commits were made to refine and test the implementation.
