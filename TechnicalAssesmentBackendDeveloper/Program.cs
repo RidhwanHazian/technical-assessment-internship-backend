@@ -48,10 +48,18 @@ public class ItemManager
     }
 
     // Part Two: Implement the RemoveItem method
-    // TODO: Implement this method
+    // Succesfully implement remove method
     public void RemoveItem(string item)
     {
-        throw new NotImplementedException("RemoveItem method is not implemented yet. Please remove this line and implement this method.");
+        if (items.Contains(item))
+        {
+            items.Remove(item);
+            Console.WriteLine($"{item} removed successfully.");
+        }
+        else
+        {
+            Console.WriteLine($"{item} Item not found.");
+        }
     }
 
     public void ClearAllItems()
