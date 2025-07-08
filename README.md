@@ -1,6 +1,6 @@
 # Technical Assessment – Backend Developer
 
-This repository contains the completed solution for a .NET console application used in a technical assessment for a backend developer internship.
+This repository is a forked copy of the original assessment repository provided for the internship technical evaluation. All tasks have been completed in this fork, including bug fixes, feature implementations, and code improvements.
 
 ## Description
 
