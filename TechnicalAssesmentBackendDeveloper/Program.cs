@@ -31,7 +31,7 @@
     }
 }
 
-public class ItemManager
+public class ItemManager : IItemManager
 {
     private List<string> items;
 
@@ -118,4 +118,15 @@ public class Fruit
     {
         return $"{Name}";
     }
+}
+
+
+// Part four: Implement an interface IItemManager and make ItemManager implement it.
+// This interface defines the methods that ItemManager should implement.
+public interface IItemManager
+{
+    void AddItem(string item);
+    void RemoveItem(string item);
+    void PrintAllItems();
+    void ClearAllItems();
 }
